@@ -13,7 +13,7 @@ LeetCode 53. 最大子序和
 
 class Solution {
     public int maxSubArray(int[] nums) {
-         int maxSum = nums[0];
+        int maxSum = nums[0];
         int tempSum = 0;
         int begin = 0;
 
