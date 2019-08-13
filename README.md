@@ -98,9 +98,6 @@ LeetCode 70. 爬楼梯
 2.  1 阶 + 2 阶
 3.  2 阶 + 1 阶
 
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/climbing-stairs
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 class Solution {
     public int climbStairs(int n) {
