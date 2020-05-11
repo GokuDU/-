@@ -13,7 +13,7 @@
 输入: [-2,1,-3,4,-1,2,1,-5,4],
 输出: 6
 解释: 连续子数组 [4,-1,2,1] 的和最大，为 6。
-```
+```ruby
 class Solution {
     public int maxSubArray(int[] nums) {
         int maxSum = nums[0];
@@ -54,7 +54,7 @@ class Solution {
 ]
 输出: 7
 解释: 因为路径 1→3→1→1→1 的总和最小。
-```
+```ruby
 class Solution {
     public int minPathSum(int[][] grid) {        
         for(int i=grid.length-1;i>=0;i--){
@@ -74,6 +74,7 @@ class Solution {
     }
 }
 ```
+
 
 - LeetCode 70. 爬楼梯
 
